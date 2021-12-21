@@ -1,0 +1,86 @@
+.card.a.active{
+  background: url(https://static.wikia.nocookie.net/wii/images/8/89/Pikachu.jpg/revision/latest?cb=20140209205851);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darksalmon;
+}
+
+.card.b.active{
+  background: url(https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darksalmon;
+}
+
+.card.c.active{
+  background: url(https://images.saymedia-content.com/.image/t_share/MTc2MjkyNDg2MzI1NDc4NTkw/pokemon-charizard-nicknames.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darksalmon;
+}
+
+.card.d.active{
+  background: url(https://www.jing.fm/clipimg/detail/286-2865804_pokemon-squirtle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darksalmon;
+}
+
+.card.e.active{
+  background: url(https://image.pngaaa.com/677/833677-middle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darksalmon;
+}
+
+.card.f.active{
+  background: url(https://pokestop.io/img/pokemon/pidgeotto-256x256.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darksalmon;
+}
+
+.card.g.active{
+  background: url(https://assets.pokemon.com/assets/cms2/img/pokedex/full/098.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darksalmon;
+}
+
+.card.h.active{
+  background: url(https://assets.pokemon.com/assets/cms2/img/pokedex/full/128.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darksalmon;
+}
+
+.card.i.active{
+  background: url(http://static.pokemonpets.com/images/monsters-images-800-800/149-Dragonite.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darksalmon;
+}
+
+.card.j.active{
+  background: url(https://cdn2.bulbagarden.net/upload/thumb/a/ab/131Lapras.png/1200px-131Lapras.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darksalmon;
+}
+.card.k.active{
+  background: url(https://assets.pokemon.com/assets/cms2/img/pokedex/full/065.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darksalmon;
+}
+.card.l.active{
+  background: url(https://i.pinimg.com/originals/bf/97/d6/bf97d6077633599ba5d4fef5d2e2986c.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darksalmon;
+}
+
+.card.active{
+  border: black solid 2px;
+  box-shadow: 0 0 10px #360202, 0 0 5px #0d0438;
+}
