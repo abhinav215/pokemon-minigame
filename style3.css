@@ -1,0 +1,87 @@
+
+.card.a.active{
+  background: url(images/Pikachu.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darksalmon;
+}
+
+.card.b.active{
+  background: url(images/onix.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darksalmon;
+}
+
+.card.c.active{
+  background: url(images/alakazam.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darksalmon;
+}
+
+.card.d.active{
+  background: url(images/bulbasaur.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darksalmon;
+}
+
+.card.e.active{
+  background: url(images/butterfree.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darksalmon;
+}
+
+.card.f.active{
+  background: url(images/charizard.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darksalmon;
+}
+
+.card.g.active{
+  background: url(images/craby.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darksalmon;
+}
+
+.card.h.active{
+  background: url(images/Dragonite.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darksalmon;
+}
+
+.card.i.active{
+  background: url(images/Lapras.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darksalmon;
+}
+
+.card.j.active{
+  background: url(images/pidgeotto.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darksalmon;
+}
+.card.k.active{
+  background: url(images/Squirtle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darksalmon;
+}
+.card.l.active{
+  background: url(images/torrus.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darksalmon;
+}
+
+.card.active{
+  border: black solid 2px;
+  box-shadow: 0 0 10px #360202, 0 0 5px #0d0438;
+}
