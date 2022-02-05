@@ -7,5 +7,5 @@ By Abhinav Bhatnagar
   <li>There are 12 pair of pokemon cards.</li>
   <li>You can turn 2 cards at a time.</li>
   <li>If both cards are of the same pokemon then the pair of card disappears.</li>
-  <li>Once all card disappear you win. There is also a timer, the you ran out of time you lose.</li>
+  <li>Once all card disappear you win. There is also a timer, if you ran out of time you lose.</li>
 </ul>
