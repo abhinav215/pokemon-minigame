@@ -1,0 +1,173 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body{
+  background:linear-gradient(to top left,rgb(231, 174, 174) ,rgb(238, 5, 5));
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header{
+  background-color: rgb(235, 180, 140);
+  box-shadow: 0 0 3px #360202, 0 0 5px #0d0438;
+  height: 70px;
+  width:90vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  border:solid rgb(61, 2, 2) 2px ;
+  margin-top:40px;
+  margin-bottom: 20px;
+}
+
+.pokemon{
+  padding:5px 40px;
+  font-size: 60px;
+  font-weight:bolder;
+  color:cornsilk;
+  text-shadow: 0 0 10px #360202, 0 0 5px #0d0438;
+}
+
+.timer{
+  background-color: crimson;
+  box-shadow: 0 0 3px #360202, 0 0 4px #0d0438;
+  width:100px;
+  height: 50px;
+  margin:10px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  padding-top:10px;
+  color:white;
+  text-shadow: 0 0 3px #360202, 0 0 5px #0d0438;
+}
+
+#cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width:1200px;
+  margin:0 auto;
+  position:relative;
+}
+
+#box{
+	position:absolute;
+	left: 0;
+	top: 0;
+  z-index : 222;
+}
+
+.aactive{
+  width:100%;
+  height:100%;
+  background-color: rgb(97, 2, 2);
+  opacity:1;
+}
+
+.aactive .result{
+  text-align: center;
+  color: aliceblue;
+  top:-50%;
+  margin:10%;
+  margin-bottom: 5%;
+  font-size: 4rem;
+  transform: translateY(-50);
+}
+
+
+.aactive h2{
+  text-align: center;
+  color: aliceblue;
+  top:-50%;
+  font-size: 1.5rem;
+  transform: translateY(-50);
+  z-index: 22;
+}
+
+.card{
+  height: 130px;
+  width: 120px;
+  background: url(https://cdn.dribbble.com/users/956603/screenshots/6348374/pokeball.png?compress=1&resize=400x300) no-repeat center;
+  background-size: cover;
+  background-color: blueviolet;
+  margin: 10px;
+  border:none;
+  position:relative;
+}
+
+.card::before{
+  position: absolute;
+  content: "";
+  height: 130px;
+  width: 120px;
+  display:none;
+}
+
+.card:hover{  
+  box-shadow: 0 0 10px #360202, 0 0 7px #0d0438;
+}
+
+
+.hidden{
+  opacity:0
+}
+
+
+@media only screen and (max-width:1150px){
+  .card{
+    height: 100px;
+    width: 92px;
+  }
+  .card:before {
+    height: 100px;
+    width: 92px;
+  }
+  #cards{
+    max-width:900px;
+  }
+}
+
+@media only screen and (max-width:900px){
+  .card{
+    height: 76px;
+    width: 70px;
+    margin: 10px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+  .card {
+    height: 76px;
+    width: 70px;
+  }
+  #cards{
+    max-width:600px;
+  }
+  .header{
+    margin-top:30px;
+    margin-bottom: 15px;
+    width:85vw;
+  }
+}
+
+.box{
+  background-color:aqua;
+}
