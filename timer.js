@@ -1,7 +1,7 @@
 var samay = setInterval(greet, 1000);
 
-let second = 3;
-let minute = 00;
+let second = 30;
+let minute = 01;
 
 function greet() {
   if (second == 1 && minute == 0) {
