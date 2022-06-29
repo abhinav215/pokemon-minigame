@@ -70,9 +70,9 @@ body{
 }
 
 #box{
-	position:absolute;
-	left: 0;
-	top: 0;
+  position:absolute;
+  left: 0;
+  top: 0;
   z-index : 222;
 }
 
@@ -116,10 +116,11 @@ body{
 
 .card::before{
   position: absolute;
-  content: "";
+  content: "a";
   height: 130px;
   width: 120px;
-  display:none;
+  opacity:0;
+/*   display:none; */
 }
 
 .card:hover{  
