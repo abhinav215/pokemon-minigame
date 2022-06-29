@@ -7,7 +7,8 @@
 
 
 .card.active::before{
-  display: block;
+/*   display: block; */
+  opacity:1;
 }
 
 .card.b::before{
