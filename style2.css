@@ -116,7 +116,7 @@ body{
 
 .card::before{
   position: absolute;
-  content: "a";
+  content: "";
   height: 130px;
   width: 120px;
   opacity:0;
